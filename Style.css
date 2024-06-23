@@ -1,0 +1,253 @@
+                                     /*?=========================HOME-PAGE=======================*/
+  /*for properities page (تنسيق المنطقة, المساحة,الملكية,الوصف)*/
+.phead {                             
+  background-color: #6340d3;
+   color: white;
+}
+
+  /* (تنسيق اللوغو للجامعة)*/
+.logo1{
+display: flex;
+    justify-content: flex-end;
+}
+.logo
+{
+    
+max-width: 100%;
+height:150px;
+margin: -60px 5px 10px ;
+}
+
+
+
+/*  تنسيق yourestate image  */
+.H-header {
+    background-size: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    height: 300px;
+    width: fit-content; 
+} 
+
+  /* (تنسيق ازرار الصفحات)*/
+.H_buttons{
+   
+    color: white;
+    background-color: #6340d3;
+    padding: 10px 20px ;
+    text-align: left;
+    display: inline-block;
+    font-size: 25px;
+    margin: 10px 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ /* (تنسيق الشعار تحت لوغو الشركة)*/
+.title {
+background-color: #f59135;
+text-align: center;
+font-size: 30px;
+font-family:'Courier New', Courier, monospace;
+font-weight: bold;
+}
+
+ /* (تنسيق tables)*/
+table {
+    border-collapse: collapse;
+    border-color: #f59135;
+    width: 75%;
+}
+/* تنسيق td,tr,th for all tables */
+th, td ,tr {
+    font-family: 'Times New Roman', Times, serif;
+    direction: rtl;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+
+
+
+                                /*?=========================ABOUTUS-PAGE======================*/
+
+/* تنسيق الصورة في اول الصفحة الرئيسية */
+.A-header {
+    background-size: 100%;
+    margin: auto;
+    display: block;
+    width: 500px;
+    background-attachment: scroll;  
+} 
+/* تنسيق وصف عام عن الشركة */
+.A-YE1{
+    color: black;
+background-color: white;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+direction: rtl;
+font-size: 50px ;
+
+}
+/* تنسيق وصف عام عن الشركة للاتصال */
+.A-YE{
+color: black;
+background-color: white;
+font-family: 'Times New Roman', Times, serif;
+text-align: right;
+direction: rtl;
+font-size: 30px;
+letter-spacing: 0.05em;
+text-align: justify;
+padding: 0px 50px;
+
+}
+
+                              /*?=========================Properties-PAGE======================*/
+
+
+/* تنسيق زر التفاصيل */
+.toggleDetails{
+    color: white;
+    background-color: #6340d3;
+    padding: 10px 15px;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    border-style: none;
+  
+}
+
+
+/* لاخفاء التفاصيل */
+.hidden {
+
+    display: none;
+}
+
+/* استكمال تنسيق المنطقة المساحة الوصف */
+.phead {
+  background-color: #6340d3;
+   color: white;
+   font-weight: bolder;
+   font-size: 30px;
+}
+
+/* تنسيق جدول العقارات */
+table tr table tr td {
+    font-size: 25px;
+    border-width: 2px;
+    border-style:solid;
+    /* background-color: #000000; */
+    border-color: #6340d3;
+    font-family:Arial, Helvetica, sans-serif
+
+}
+/* تنسيق صور العقارات في الجدول  */
+
+table tr table tr td img {
+height: 300px;
+padding: 10px;
+}
+
+/* تنسيق جدول العقارات */
+table tr td{
+    font-size: 30px;
+}
+
+
+
+.j_buttons{
+     
+      color: white;
+      background-color: #6340d3;
+      padding: 10px 20px ;
+      text-align: right;
+      display: inline-block;
+      font-size: 25px;
+      margin: 10px 10px;
+      cursor: pointer;
+      text-decoration: none;
+      
+  }
+ 
+  /* تخصيص  للشراء */
+  
+  #purchase-form {
+    max-width: 500px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: #f59135
+  }
+  
+  form {
+    display: grid;
+    gap: 10px;
+  }
+  /*تغميق الخط*/
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  
+  /* تخصيص تسمية وحقل الإدخال في نموذج الشراء  */
+  
+  label, input {
+    display: block;
+  }
+  
+  /*تخصيص الهوية ,  "purchase-form" */
+  
+   #purchase-form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  /* تخصيص الرسائل التنبيهية */
+  
+  .alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  /*زر الإرسال */
+ .btn-send3{
+border: 0;
+color: #f1e9e9;
+font-size: 25px;
+background-color: rgb(112, 13, 206);
+border-radius: 40px;
+padding: 10px 60px;
+cursor: pointer;
+  }
+ /*  زر تغير  الرمز*/
+.btn-send2{
+    border: 0;
+    color: #f1e9e9;
+    font-size: 25px;
+    background-color: rgb(112, 13, 206);
+    border-radius: 40px;
+    padding: 10px 60px;
+    cursor: pointer;
+      }
+
+
+
+                                                                   
